@@ -1,0 +1,24 @@
+{
+  "name": "assistant30",
+  "version": "1.0.0",
+  "description": "help me",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z2025z0113/assistant30.git"
+  },
+  "author": "zhou zheng fa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z2025z0113/assistant30/issues"
+  },
+  "homepage": "https://github.com/z2025z0113/assistant30#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
