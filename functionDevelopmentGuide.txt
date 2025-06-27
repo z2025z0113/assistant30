@@ -1,0 +1,4 @@
+2025-06-27 14:42:35 (1) record usual consumption behavior ,
+    such as just now I purchase two tomato costing 2.8 rmb, this thing should contain :
+    [thing-title content in a word, money change number , happen time ,][total three columns.]
+    implement : create table , insert data , select data,
