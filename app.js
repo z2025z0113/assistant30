@@ -10,7 +10,8 @@ db.run(`create table if not exists money_variation(
   money double default 0,
   happen timestamp not null
   )`);
-db.run(`insert into money_variation(thing,money,happen) values(?,?,?)`,['buy 500g apple online',-28.62,'2025-6-28 20:27'])
+// db.run(`insert into money_variation(thing,money,happen) values(?,?,?)`,['buy 500g apple online',-28.62,'2025-6-28 20:27'])
+// db.run(`insert into money_variation(thing,money,happen) values(?,?,?)`,['buy one piece of tofu',-3.2,'2025-06-29 09:26:28'])
 db.close();
 app.use(express.static("public")); // Serves files from ./public/
 // Serve index.html for root path
